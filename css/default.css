@@ -1,0 +1,181 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : 23.03.2015, 15:49:36
+    Author     : Besitzer2
+*/
+
+body {
+	font-family: "Trebuchet MS", sans-serif;
+	background: url(hintergrund.png) repeat-x #fff;
+	color: #1E242B;
+	text-align: center;
+	font-size: 0.8em;
+	margin: 0;
+	padding: 0;
+}
+
+a {
+	outline: none;
+}
+
+.clearboth {
+	clear: both;
+}
+
+#wrapper {
+	text-align: left;
+	width: 900px;
+	height: 600px;
+	margin: 0 auto;
+}
+
+.head {
+	padding: 0px;
+	margin: 0px 0px 10px 0px;
+	height: 60px;
+}
+
+.head h2 {
+	text-align: left;
+	color: #fff;
+	font-size: 1.6em;
+	float: left;
+}
+
+.head ul {
+	float: right;
+	list-style-type: none;
+}
+
+.head ul li {
+	display: inline;
+}
+
+.head ul li a {
+	color: #fff;
+	text-decoration: none;
+}
+
+.left {
+	width: 250px;
+	float: left;
+}
+
+.content {
+	width: 680px;
+	float: right;
+}
+
+.content .box {
+	width: 100px;
+	height: 100px;
+	border: 1px solid #1E242B;
+	background-color: #e7e7e7;
+	margin: 10px;
+	float: left;
+}
+
+.block {
+	margin: 0px 0px 10px 0px;
+	border: 1px solid #1E242B;
+	background-color: #e7e7e7;
+}
+
+.block h2 {
+	margin: 0;
+	padding: 2px 0px 2px 10px;
+	font-size: 1.1em;
+	color: #fff;
+	background-color: #1E242B;
+}
+
+.block h2:hover {
+	background-color: #202020;
+}
+
+.menu ul {
+	list-style-type: none;
+	margin: 0;
+	padding: 8px;
+}
+
+.menu li a {
+	display: block;
+	border-bottom: 1px dotted #808080;
+	text-decoration: none;
+	color: #1E242B;
+}
+
+.menu li a:hover {
+	color: #c00 !important;
+	border-bottom: 1px dotted #c00;
+}
+
+.menu li ul.submenu {
+	display: none;
+	padding: 0 !important;
+	margin-bottom: 5px;
+}
+
+.menu ul.submenu li a {
+	margin-left: 10px;
+}
+
+.menu li ul.sub-submenu {
+	display: none;
+	padding: 0 !important;
+	margin-bottom: 5px;
+        
+}
+.menu ul.sub-submenu li {
+	margin-left: 10px;
+}
+
+.search div {
+	padding: 5px;
+}
+
+.search input {
+	width: 130px;
+}
+
+#standorte {
+	width: 100%;
+}
+
+#tabs {
+	height: 240px;
+}
+
+#tabs ul {
+	margin: 0;
+	padding: 0;
+	height: 24px;
+	list-style-type: none;
+}
+
+#tabs li {
+	display: inline;
+	cursor: pointer;
+	padding: 5px 16px;
+	margin: 0px 2px 0px 0px;
+	background-color: #1E242B;
+	color: #e7e7e7;
+}
+
+#tabs li:hover {
+	background-color: #3C464D;
+}
+
+#tabs div {
+	position: absolute;
+	height: 200px;
+	width: 500px;
+	border: 1px solid #1E242B;
+	background-color: #e7e7e7;
+	overflow: auto;
+}
